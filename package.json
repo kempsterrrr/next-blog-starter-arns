@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "deploy": "npm run build && permaweb-deploy --deploy-folder out --arns-name $ARNS_NAME --ttl 60"
+    "deploy": "npm run build && permaweb-deploy --deploy-folder out --arns-name kempsterrrr --undername next-blog-starter-arns --ttl 60"
   },
   "dependencies": {
     "classnames": "^2.5.1",
